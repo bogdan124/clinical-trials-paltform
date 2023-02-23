@@ -1,0 +1,101 @@
+.login-container{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.login-logo{
+  position: relative;
+  margin-left: -41.5%;
+}
+.login-logo img{
+  position: absolute;
+  width: 20%;
+  margin-top: 19%;
+  background: #282726;
+  border-radius: 4.5rem;
+  padding: 5%;
+}
+.login-form-1{
+  padding: 9%;
+  background:#282726;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+  text-align: center;
+  margin-bottom:12%;
+  color:#fff;
+}
+.login-form-2{
+  padding: 9%;
+  background: white;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+  text-align: center;
+  margin-bottom:12%;
+  color: #fff;
+}
+.btnSubmit{
+  font-weight: 600;
+  width: 50%;
+  color: #282726;
+  background-color: #fff;
+  border: none;
+  border-radius: 1.5rem;
+  padding:2%;
+}
+.btnForgetPwd{
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.btnForgetPwd:hover{
+  text-decoration:none;
+  color:#fff;
+}
+
+.section-header .container, .section-header-blog .container, .section-presentation-page .container {
+  z-index: 3;
+  position: absolute;
+  width: 50% !important;
+  height: 100%;
+  display: block;
+  top: 0;
+  left: 30%;
+}
+
+.btnsubmit-register{
+  color:white;
+  background-color: #282726;
+}
+
+.title-register{
+  color:#282726 !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .login-form-2 {
+    width: 100%;
+  }
+  .container.login-container {
+    width: 60%;
+    left: 20%;
+}
+  .login-form-1{
+    width: 100%;
+  }
+  
+}
+
+@media only screen and (max-width: 550px) {
+  .login-form-2 {
+    width: 100%;
+  }
+  .container.login-container {
+    width: 80% !important;
+    left: 10%;
+}
+  .login-form-1{
+    width: 100%;
+  }
+  
+}
