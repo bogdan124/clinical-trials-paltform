@@ -87,56 +87,47 @@ const Home = () => {
         <div className="row">
             <div className="col-md-12">
                 
-                <div className="main-timeline">
-                    <div className="timeline">
-                        <a href="#" className="timeline-content">
-                            <span className="timeline-year">2020</span>
-                            <div className="timeline-icon">
-                                <i className="fa fa-globe"></i>
-                            </div>
-                            <h3 className="title">Web Designing</h3>
-                            <p className="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo
-                            </p>
-                        </a>
-                    </div>
-                    <div className="timeline">
-                        <a href="#" className="timeline-content">
-                            <span className="timeline-year">2021</span>
-                            <div className="timeline-icon">
-                                <i className="fa fa-rocket"></i>
-                            </div>
-                            <h3 className="title">Web Development</h3>
-                            <p className="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo
-                            </p>
-                        </a>
-                    </div>
-                    <div className="timeline">
-                        <a href="#" className="timeline-content">
-                            <span className="timeline-year">2022</span>
-                            <div className="timeline-icon">
-                                <i className="fa fa-globe"></i>
-                            </div>
-                            <h3 className="title">Web Designing</h3>
-                            <p className="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo
-                            </p>
-                        </a>
-                    </div>
-                    <div className="timeline">
-                        <a href="#" className="timeline-content">
-                            <span className="timeline-year">2023</span>
-                            <div className="timeline-icon">
-                                <i className="fa fa-globe"></i>
-                            </div>
-                            <h3 className="title">Web Designing</h3>
-                            <p className="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo
-                            </p>
-                        </a>
-                    </div>
-                </div>
+            <div class="col-md-10 mx-auto">
+
+            <div class="timeline-body">
+  <div class="timeline-container timeline-left">
+    <div class="timeline-content">
+      <h2>2017</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
+  </div>
+  <div class="timeline-container timeline-right">
+    <div class="timeline-content">
+      <h2>2016</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
+  </div>
+  <div class="timeline-container timeline-left">
+    <div class="timeline-content">
+      <h2>2015</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
+  </div>
+  <div class="timeline-container timeline-right">
+    <div class="timeline-content">
+      <h2>2012</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
+  </div>
+  <div class="timeline-container timeline-left">
+    <div class="timeline-content">
+      <h2>2011</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
+  </div>
+  <div class="timeline-container timeline-right">
+    <div class="timeline-content">
+      <h2>2007</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
+  </div>
+</div>
+         </div>
             </div>
         </div>
     </div>

@@ -12,6 +12,7 @@ import HeaderProfile from './components/Profile/components/HeaderProfile/HeaderP
 import ProfHome from './components/Profile/components/ProfHome/ProfHome.js';
 
 import { BrowserRouter as Router, Route, Routes  } from 'react-router-dom';
+import Register from './components/Register/register';
 
 const Main = () => {
     return (
@@ -55,6 +56,10 @@ const Main = () => {
                             <ProfHome/>
                         </>
                         } />
+                <Route path="/register" element={ 
+                     <>
+                            <Header/><Register/><Footer />
+                        </>}/>
             </Routes >
            
         </Router>

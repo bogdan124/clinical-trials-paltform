@@ -42,7 +42,7 @@ function Header() {
                 <Nav.Link href="/contact"  className='header-navs'>
                   Contact
                 </Nav.Link>
-              <Nav.Link href="/login"  className='header-navs'>
+              <Nav.Link href="/register"  className='header-navs'>
                   Sign in
                 </Nav.Link>
             </Navbar.Collapse>
